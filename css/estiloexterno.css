@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+}
+
+h1 {
+    color: aqua;
+    font-size: 40px;
+}
+
+h3 {
+    color: red;
+    background: blue;
+    
+}
+
+p {
+    font-family: cursive;
+    
+}
+
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    
+}
