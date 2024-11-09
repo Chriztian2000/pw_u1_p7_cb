@@ -1,3 +1,5 @@
+
+
 *{
     text-align: center;
 }
@@ -24,4 +26,78 @@ button {
     background-color: black;
     border-radius: 10px;
     
+}
+
+.titulos {
+    color: green;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#id_pie_pagina_uce {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img[src*=".png"] { 
+    width: 100px;
+    height: 100px;
+    
+}
+
+input[type="text"] {
+    width: 100px;
+    height: 30px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type="password"] {
+    width: 100px;
+    height: 30px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+input[type="date"] {
+    width: 100px;
+    height: 30px;
+    background-color: lightyellow;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+
+/*COMBINACION DE SELECTORES*/
+
+h1, h3, h5 {
+    color: purple;
 }
