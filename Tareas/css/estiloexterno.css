@@ -1,0 +1,78 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+header {
+    color: white;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: blue;
+    font-family: cursive;
+    text-align: justify;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+p1 {
+    color: white;
+    background-color: grey;
+    font-family: cursive;
+    text-align: left;
+}
+
+button1 {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+p2 {
+    color: brown;
+    font-family: cursive;
+    text-align: right;
+}
+
+button2 {
+    background-color: indigo;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+p3 {
+    color: white;
+    background-color: seagreen;
+    font-family: cursive;
+    text-align: end;
+}
+
+button3 {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}

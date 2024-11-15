@@ -1,0 +1,43 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: cursive;
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+}
+
+#idmenu li {
+    font-family: cursive;           
+    
+}
+
+label {
+    color: white;
+    font-family: cursive;
+    font-size: medium;
+    background-color: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input {
+    background-color: silver;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
