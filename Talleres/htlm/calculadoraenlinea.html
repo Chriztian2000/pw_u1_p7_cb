@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Externo</title>
-    <link rel="stylesheet" href="../css/calculadora.css">
-
-   
+    <title>Calculadora en Linea</title>
 </head>
 
 <body>
     <header>
-        <h1>CHRISTIAN ALEJANDRO BETANCOURT ALBAN</h1>
+        
     </header>
     <nav>
         <ul id="idmenu">
@@ -27,16 +24,16 @@
         <label id="label2" for="numero2">N&#250;mero 2</label>
         <input id="numero2" type="number">
         <label id="label3" for="numero3">N&#250;mero 3</label>
-        <input id="numero3" type="number">
+        <input id="numero2" type="number">
 
         <br>
 
-        <button onclick="document.getElementById('label1').style.background='darkred'">Cambiar Color</button>
-        <button onclick="document.getElementById('label2').style.fontFamily='Times New Roman'">Cambiar Tipo de
-            Letra</button>
+        <button onclick="document.getElementById('label1').style.background='blue'">Cambiar Color</button>
+        <button onclick="document.getElementById('label2').style.fontFamily='cursive'">Cambiar Tipo de Letra</button>
         <button onclick="document.getElementById('label3').innerText='Nuevo N&#250;mero'">Cambiar Texto</button>
-        <button onclick="document.getElementById('idmenu').innerHTML += '<li>Nueva Calculadora</li>'">Agregar
+        <button onclick="document.getElementById('idmenu').innerHTML +='<li>Nueva Calculadora</li>'">Agregar
             Elemento</button>
+
     </section>
     <footer></footer>
 </body>
