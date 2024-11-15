@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Interno</title>
+    <script>
+        function cambiarBackground(id, cambio){
+            document.getElementById(id).style.background=cambio;
+        }
+
+        function cambiarColorTexto(id, cambio){
+            document.getElementById(id).style.color=cambio;
+        }
+
+        function cambiarEstiloLetra(id, cambio){
+            document.getElementById(id).style.fontStyle=cambio;
+        }
+
+        function cambiarPesoLetra(id, cambio){
+            document.getElementById(id).style.fontWeight=cambio;
+        }
+
+        function cambiarTamanioTexto(id, cambio){
+            document.getElementById(id).style.fontSize=cambio;
+        }
+
+        function cambiarTipoLetra(id, cambio){
+            document.getElementById(id).style.fontFamily=cambio;
+        }
+
+        function cambiarTexto(id, cambio){
+            document.getElementById(id).innerText=cambio;
+        }
+        
+        function alinearTexto(id, cambio){
+            document.getElementById(id).style.textAlign=cambio;
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="h1">Christian Alejandro Betancourt Alban</h1>
+    </header>
+
+    <section>
+
+        <p id="p1">Soy una persona profundamente
+            apasionada por el mundo de la tecnología y las matemáticas, dos áreas que me inspiran a explorar, comprender
+            y crear soluciones innovadoras a problemas complejos. Desde muy joven, me he sentido cautivado por la
+            capacidad de la tecnología para transformar y facilitar la vida cotidiana, así como por el poder de las
+            matemáticas para ofrecer un lenguaje preciso y universal que permite analizar y estructurar la realidad de
+            manera lógica.
+        </p>
+        <button id="b1">Enviar</button>
+
+        <p id="p2">En el ámbito
+            tecnológico, me fascina
+            estar al tanto de los avances y nuevas tendencias que surgen constantemente, ya sea en inteligencia
+            artificial, programación, desarrollo de sistemas, automatización o diseño de hardware. Siento una gran
+            motivación por entender cómo funcionan estos sistemas y dispositivos, y por aprender a usarlos y
+            optimizarlos para que sean herramientas aún más útiles y efectivas. Me entusiasma experimentar y crear mis
+            propios proyectos, encontrando en cada nuevo reto una oportunidad para perfeccionar mis habilidades.
+        </p>
+        <button id="b2">Enviar</button>
+
+
+        <p id="p3">En cuanto a las matemáticas, no solo
+            aprecio su utilidad práctica, sino que también disfruto de la belleza y elegancia de los conceptos
+            matemáticos. Para mí, las matemáticas no son solo números o fórmulas; son una forma de pensar que fomenta el
+            razonamiento lógico, la resolución de problemas y el análisis crítico. Disfruto de estudiar teorías y
+            problemas complejos, y siento que cada nuevo concepto o técnica que aprendo es una nueva herramienta que me
+            ayuda a desentrañar la estructura del mundo.
+        </p>
+        <button id="b3">Enviar</button>
+
+
+        <p id="p4">Mi
+            dedicación tanto a la tecnología
+            como a las matemáticas me convierte en una persona curiosa, persistente y siempre dispuesta a aprender.
+            Considero que el aprendizaje en estos campos es un viaje continuo que me abre las puertas a infinitas
+            posibilidades, y estoy convencido de que siempre hay algo nuevo que descubrir y comprender.
+        </p>
+        <button id="b4">Enviar</button>
+
+
+        <br>
+        <br>
+
+        <button onclick="cambiarBackground('h1','blue')">Cambiar Color</button>
+        <button onclick="cambiarTipoLetra('p1','cursive')">Cambiar Tipo de Letra</button>
+        <button onclick="cambiarTexto('b1','Nuevo Texto')">Cambiar Texto</button>
+        <button onclick="cambiarTamanioTexto('p2','30px')">Cambiar Tamaño de Letra</button>
+        <button onclick="cambiarBackground('b2','red')">Cambiar Color de Fondo</button>
+        <button onclick="cambiarEstiloLetra('p3','italic')">Cambiar Estilo de Letra</button>
+        <button onclick="cambiarColorTexto('b3','purple')">Cambiar Color de Texto</button>
+        <button onclick="cambiarPesoLetra('p4','bold')">Cambiar Peso de Letra</button>
+        <button onclick="cambiarTamanioTexto('b4','20px')">Cambiar Tamaño de Texto</button>
+        <button onclick="alinearTexto('h1','center')">Alinear Texto</button>
+
+        
+        
+        
+          
+
+    </section>
+    <footer></footer>
+</body>
+
+</html>
