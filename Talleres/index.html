@@ -1,21 +1,30 @@
+<!-- Este elemento me dice que va a trabajar con HTML5 -->
 <!DOCTYPE html>
+<!-- Este es el elemento html y su atributo lang que corresponde al lenguaje con el que se trabaja -->
 <html lang="en">
 
-
+<!-- Este es la cabecera -->
 <head>
+    <!-- Estos son metadatos por eso tiene la palabra meta, son datos importantes que no los vemos directamente -->
+    <!-- charset es la codificacion de mi pagina web-->
     <meta charset="UTF-8">
+    <!-- tamaño, longitud de mi pagina -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Titulo del documnto de mi pagina -->
     <title>Document</title>
 </head>
 
+<!-- Este es el cuerpo de la pagina -->
 <body>
+    <!-- Pondremos toda la parte de la cabecera de mi pagina web -->
     <header>
-
-        <h1>My Blog DB</h1>
+        <!-- Elemento que son para titulos se utiliza "h" los tamaños van de 1 al 6, 1 el más grande 6 más pequeño -->
+        <h1>Mi Blog Roberto Aguas</h1>
         <h6>Mi Blog 2</h6>
     </header>
+    <!-- El elemento nav es para la barra/panel de navegación -->
     <nav>
+        <!-- Este elemento "ul" es undorderList, donde el contenido son elementos de mi lista de mi panel de navegación, "li" listItem -->
         <ul>
             <li>Principal</li>
             <li>Docentes</li>
@@ -24,8 +33,11 @@
             <li>Ayuda</li>
         </ul>
     </nav>
+    <!-- El elemento section, va el contenido principal -->
     <section>
-        
+        <!-- Este elemento sirve para poner articulos dentro de mi section, time para poner fecha,
+         h2 poner un titulo de tamaño h2, y la "p" sirve para poner parrafos.
+         poniendo la palabra "lorem20" se pone texto automaticamente segun el numero que pongamos, en este ejemplo 30-->
         <article>
             <time datetime="01-01-2024">Publicado el: 01-01-2024 </time>
             <h2>Artículo de Ciencias</h2>
@@ -45,20 +57,20 @@
                 sequi aut blanditiis laudantium ex porro quis velit facere cumque magnam ipsam totam voluptates
                 consequatur. Id repellendus nam dolores molestias recusandae vero beatae?
             </p>
+              <!-- El elemento footer es el pie de pagina de la web pero tambein se puede poner en cada seccion de un articulo -->
             <footer>Comentarios(15)</footer>
         </article>
     </section>
-   
+    <!-- Solo si es necesrio el elemento "aside", que es el contenido lateral -->
     <aside>
-
+        <!-- pondremos enlaces de referencia como ejemplo, con el elemento blockquote -->
         <blockquote cite="https://miblog/ciencias">Referencia del articulo de Ciencias </blockquote>
         <blockquote cite="https://miblog/computacion">Referencia del articulo de Computacion </blockquote>
     </aside>
 
- 
+    <!-- El elemento footer es el pie de pagina de la web -->
     <footer>
-        Todos los derechos reservados para la Universidad Central del Ecuador DB
+        Todos los derechos reservados para la Universidad Central del Ecuador y Roberto Aguas
     </footer>
 </body>
-
 </html>

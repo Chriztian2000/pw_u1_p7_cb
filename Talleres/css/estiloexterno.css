@@ -1,103 +1,72 @@
-
-
-*{
+* {
     text-align: center;
 }
 
 h1 {
-    color: aqua;
+    color: cornflowerblue;
     font-size: 40px;
 }
 
-h3 {
+h2 {
     color: red;
-    background: blue;
-    
+    background: yellow;
+}
+
+h3 {
+    color: blue;
+    font-size: 30px;
 }
 
 p {
-    font-family: cursive;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/*Para comentar en css*/
 button {
     color: white;
     background-color: black;
-    border-radius: 10px;
-    
+    border-radius: 15px;
 }
-
-.titulos {
+/* Se utiliza el "." cuando es una clase */
+.titulos{
     color: green;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-
-#id_pie_pagina_uce {
-    color: white;
-    background-color: black;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    padding: 10px;
+/* Se utiliza el "#" cuando es un id */
+#id_pie_pagina_uce{
+    color: tomato;
+    font-size: 30px;
+    background-color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-img[src*=".png"] { 
+/*Una opcion, sino siempre poner src
+img[src="../img/uce_img.png"]{*/
+/* Otra opcion: es 
+    img[src¨*=".png"]{
     width: 100px;
     height: 100px;
+*/
+img[src]{
     
-}
-
-input[type="text"] {
     width: 100px;
-    height: 30px;
-    background-color: lightblue;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 5px;
-    margin: 5px;
+    height: 100px;
 }
 
-input[type="password"] {
-    width: 100px;
-    height: 30px;
-    background-color: lightcoral;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 5px;
-    margin: 5px;
+input[type="text"]{
+    background-color: rgb(141, 157, 185);
 }
 
-input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    background-color: lightgreen;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 5px;
-    margin: 5px;
-    
+button:hover{
+    color: chartreuse;
+    background-color: black;
 }
-
-input[type="date"] {
-    width: 100px;
-    height: 30px;
-    background-color: lightyellow;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 5px;
-    margin: 5px;
+.titulos:hover{
+    color: rgb(50, 11, 130);
+    background-color: aqua;
 }
-
-button:hover {
-    background-color: red;
-    color: white;
-    padding: 8px;
-}
-
-/*COMBINACION DE SELECTORES*/
-
-h1, h3, h5 {
-    color: purple;
+/* Combinacion de selectores */
+h1,h3,h5{
+    color: red;
+    background-color: yellow;
 }

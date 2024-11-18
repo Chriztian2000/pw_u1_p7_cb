@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cambiarColor(id, color) {
+            document.getElementById(id).style.color = color;
+        }
+        function cambiarTamanio(id, tamanio) {
+            document.getElementById(id).style.fontSize = tamanio;
+        }
+        function cambiarTexto(id, texto) {
+            document.getElementById(id).innerText = texto;
+        }
+        function agregarElemento(id, texto) {
+            document.getElementById(id).innerHTML += texto;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav>
+        <ul id="idMenu">
+            <li>Calculadora 1</li>
+            <li>Calculadora 2</li>
+            <li>Calculadora 3</li>
+        </ul>
+    </nav>
+    <section>
+        <label id="label1" for="numero1">N&#250;mero 1</label>
+        <input id="numero1" type="number">
+        <label id="label2" for="numero2">N&#250;mero 2</label>
+        <input id="numero2" type="number">
+        <br>
+        <button onclick="cambiarColor('label1','green')">Cambiar color</button>
+        <button onclick="cambiarColor('label2','yellow')">Cambiar color2</button>
+        <button onclick="cambiarTamanio('label2','40px')">Cambiar tama&#241;o</button>
+        <button onclick="cambiarTexto('label1','Hola, esto es un cambio')">Cambiar texto</button>
+        <button onclick="agregarElemento('idMenu','<li>calculadora5</li>')">Agregar Elemento</button>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
