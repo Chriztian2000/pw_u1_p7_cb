@@ -1,0 +1,38 @@
+.container {
+    display: flex; /* Para que los elementos se alineen en fila */
+    justify-content: center; /* Para que los elementos se alineen en el centro */
+    align-items: center; /* Para que los elementos se alineen en el centro */
+}
+
+.calculadora {
+    display: grid; /* Para que los elementos se alineen en una cuadrícula */
+    grid-template-columns: repeat(4, 75px); /* Para que haya 4 columnas */
+    grid-template-rows: repeat(6, 75px);
+     
+    padding: 15px; /* Para que haya un espacio entre los elementos */
+    border: 1px solid black;
+    border-radius: 15px; /* Para que haya un borde redondeado */
+    background: rgb(176, 190, 199); /* Para que haya un color de fondo */
+    box-shadow: 15px 10px 5px 5px rgb(109, 109, 109); /* Para que haya una sombra */ 
+    
+}
+
+.display{
+    grid-column: span 4; /* Para que ocupe 4 columnas */
+    border: 1px solid black;
+    background: rgb(249, 238, 194);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    
+    
+}
+
+.C{
+    grid-column: span 2; /* Para que ocupe 2 columnas */
+}
+
+
+
