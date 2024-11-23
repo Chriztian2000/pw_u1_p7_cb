@@ -26,8 +26,7 @@ function setOperator(op) {
         num1 = parseFloat(currentValue); 
         operator = op;
         currentValue += op; 
-    } else {
-        
+    } else {        
         currentValue = result.toString() + op;
         num1 = result;
         operator = op;
@@ -37,9 +36,7 @@ function setOperator(op) {
 
 
 function calculate() {
-
     num2 = parseFloat(currentValue.split(operator)[1]);
-
     if (operator === "+") {
         result = num1 + num2;
     } else if (operator === "-") {
@@ -48,9 +45,7 @@ function calculate() {
         result = num1 * num2;
     } else if (operator === "%") {
         result = num1 % num2;
-    }
-
-    
+    }    
     currentValue = result.toString();
     num1 = null; 
     num2 = null;
