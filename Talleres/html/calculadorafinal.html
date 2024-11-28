@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/calculadora.js"></script>
 </head>
 
 <body>
@@ -14,27 +15,27 @@
     <section>
         <div class="container">
             <div class="calculadora">
-                <div class="display">
-                    1+2
-                </div>
-                <button class="C">C</button>
-                <button>&larr;</button>
-                <button>%</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>X</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-                <button class="C">0</button>
-                <button>.</button>
-                <button>=</button>
+                
+                <div id="id-display" class="display">0</div>
+                
+                <button class="C" onclick="clearDisplay()">C</button>
+                <button onclick="backspace()">&larr;</button>
+                <button onclick="setOperator('%')">%</button>
+                <button onclick="setearValor(7)">7</button>
+                <button onclick="setearValor(8)">8</button>
+                <button onclick="setearValor(9)">9</button>
+                <button onclick="setOperator('X')">X</button>
+                <button onclick="setearValor(4)">4</button>
+                <button onclick="setearValor(5)">5</button>
+                <button onclick="setearValor(6)">6</button>
+                <button onclick="setOperator('-')">-</button>
+                <button onclick="setearValor(1)">1</button>
+                <button onclick="setearValor(2)">2</button>
+                <button onclick="setearValor(3)">3</button>
+                <button onclick="setOperator('+')">+</button>
+                <button class="cero" onclick="setearValor(0)">0</button>
+                <button onclick="setDecimal()">.</button>
+                <button onclick="calculate()">=</button>
             </div>
         </div>
     </section>
