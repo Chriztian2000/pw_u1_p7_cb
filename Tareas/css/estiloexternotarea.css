@@ -1,0 +1,56 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+h2 {
+    color: aquamarine;
+    background-color: dimgrey;
+    font-size: 40px;
+    
+}
+
+ul {
+    color: darkgreen;
+    font-size: 20px;
+}
+
+h3 {
+    color: honeydew;
+    background: black;
+}
+
+time {
+    color: darkcyan;
+    font-size: 15px;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+aside {
+    color: blue;
+}
+
+blockquote {
+    color: blue;
+}
+
+footer {
+    color: cornflowerblue;
+    font-size: 30px;
+}

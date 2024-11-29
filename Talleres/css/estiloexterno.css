@@ -1,0 +1,72 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-size: 40px;
+}
+
+h2 {
+    color: red;
+    background: yellow;
+}
+
+h3 {
+    color: blue;
+    font-size: 30px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Para comentar en css*/
+button {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+/* Se utiliza el "." cuando es una clase */
+.titulos{
+    color: green;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Se utiliza el "#" cuando es un id */
+#id_pie_pagina_uce{
+    color: tomato;
+    font-size: 30px;
+    background-color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Una opcion, sino siempre poner src
+img[src="../img/uce_img.png"]{*/
+/* Otra opcion: es 
+    img[src¨*=".png"]{
+    width: 100px;
+    height: 100px;
+*/
+img[src]{
+    
+    width: 100px;
+    height: 100px;
+}
+
+input[type="text"]{
+    background-color: rgb(141, 157, 185);
+}
+
+button:hover{
+    color: chartreuse;
+    background-color: black;
+}
+.titulos:hover{
+    color: rgb(50, 11, 130);
+    background-color: aqua;
+}
+/* Combinacion de selectores */
+h1,h3,h5{
+    color: red;
+    background-color: yellow;
+}

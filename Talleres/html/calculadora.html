@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav>
+        <ul id="idMenu">
+            <li>Calculadora 1</li>
+            <li>Calculadora 2</li>
+            <li>Calculadora 3</li>
+        </ul>
+    </nav>
+    <section>
+        <label id="label1" for="numero1">N&#250;mero 1</label>
+        <input id="numero1" type="number">
+        <label for="numero2">N&#250;mero 2</label>
+        <input id="numero2" type="number">
+        <br>
+        <button onclick="document.getElementById('label1').style.color='yellow'">Cambiar color</button>
+        <button onclick="document.getElementById('label1').style.fontSize='40px'">Cambiar tama&#241;o</button>
+        <button onclick="document.getElementById('label1').innerText='Nuevo texto Cambiado'">Cambiar texto</button>
+        <button onclick="document.getElementById('idMenu').innerHTML+='<li>Calculadora 4</li>'">Agregar Elemento</button>
+    </section>
+    <footer></footer>
+
+</body>
+
+</html>
